@@ -28,7 +28,7 @@ services:
     stop_signal: SIGINT
 
   packet-forwarder:
-    image: nebraltd/hm-pktfwd:rpi3
+    image: stromer199/hm-pktfwd-rpi3
     depends_on:
       - multiplexer
     restart: always
